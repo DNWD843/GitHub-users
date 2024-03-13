@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "removeComments": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "module": "esnext",
+        "jsx": "react",
+        "lib": ["dom", "es2017", "dom.iterable", "webworker"]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist", "src/service-worker.ts"]
+}
